@@ -1,0 +1,63 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: "Manrope";
+}
+
+li {
+    list-style: none;
+}
+
+/* Header */
+
+.header{
+    background-color: whitesmoke;  /*nanti diganti white. Ini biar jelas aja pas develop)*/
+    height: 80px;
+    width: 100%;
+    position: relative;
+}
+
+.header-left{
+    float: left;
+    color: #041627;
+    font-size: 20px;
+    margin-top: 24px;
+    margin-left: 80px;
+}
+
+.header-center{
+    margin-left: 497px;
+}
+
+.header-center li{
+    color: #596B7B;
+    font-size: 14px;
+    padding: 0 20px;
+    float: left;
+    margin-top: 28px;
+}
+.header-center span{
+    color: #0081F9;
+}
+
+/*pertombolan pojok kanan*/
+.header-right{
+    position: sticky;
+    margin-top: 24px;
+    margin-right: 80px;
+    float: right;
+}
+
+.header-right a{
+    padding: 6px 24px;
+    background-color: #0081F9;
+    color: white;
+    display: block;
+    border-radius: 4px;
+    text-decoration-line: none;
+  }
