@@ -51,4 +51,12 @@ h1, h2, h3, h4, h5, h6, p, div {
     display: block;
     border-radius: 4px;
     text-decoration-line: none;
-  }
+}
+
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(img1.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
