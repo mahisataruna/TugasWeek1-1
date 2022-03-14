@@ -1,16 +1,29 @@
-html, body,
-ul, ol, li,
-h1, h2, h3, h4, h5, h6, p, div {
-  margin: 0;
-  padding: 0;
-  font-family: "Manrope";
-  list-style: none;
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+    margin: 0;
+    padding: 0;
+    font-family: "Manrope";
+    list-style: none;
 }
 
 /* Header */
 
-.header{
-    background-color: whitesmoke;  /*nanti diganti white. Ini biar jelas aja pas develop)*/
+.header {
+    background-color: whitesmoke;
+    /*nanti diganti white. Ini biar jelas aja pas develop)*/
     height: 80px;
     width: 100%;
     position: relative;
@@ -18,7 +31,7 @@ h1, h2, h3, h4, h5, h6, p, div {
     justify-content: space-between;
 }
 
-.header-left{
+.header-left {
     float: left;
     color: #041627;
     font-size: 20px;
@@ -26,25 +39,26 @@ h1, h2, h3, h4, h5, h6, p, div {
     margin-left: 80px;
 }
 
-.header-center li{
+.header-center li {
     color: #596B7B;
     font-size: 14px;
     padding: 0 20px;
     float: left;
     margin-top: 28px;
 }
-.header-center span{
+
+.header-center span {
     color: #0081F9;
 }
 
 /*pertombolan pojok kanan*/
-.header-right{
+.header-right {
     margin-top: 24px;
     margin-right: 80px;
     float: right;
 }
 
-.header-right a{
+.header-right a {
     padding: 6px 24px;
     background-color: #0081F9;
     color: white;
@@ -59,4 +73,90 @@ h1, h2, h3, h4, h5, h6, p, div {
     background-size: cover;
     color: white;
     text-align: center;
+}
+
+
+/* Services */
+.services {
+    background-color: #FAFBFC;
+    height: 700px;
+}
+
+.services h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.services p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.tag-services {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    width: 137px;
+    height: 40px;
+    margin-top: 30px;
+    background-color: #FCF5FF;
+    color: #CC61FF;
+    border-radius: 40px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.tag-services img {
+    width: 25px;
+}
+
+.tag-services p {
+    padding: 3px;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card {
+    background-color: #FAFBFC;
+    width: 411px;
+    height: 346px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px 24px;
+    margin: 50px;
+}
+
+.card p {
+    text-align: start;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.card h5 {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.card img {
+    width: 64px;
+    margin-bottom: 30px;
+}
+
+.card a {
+    color: #0081F9;
+    text-decoration: none;
+    text-align: end;
+}
+
+.card:hover {
+    background-color: white;
+    box-shadow: 0px 3px 38px 5px rgba(158, 157, 157, 0.11);
+    -webkit-box-shadow: 0px 3px 38px 5px rgba(158, 157, 157, 0.11);
+    -moz-box-shadow: 0px 3px 38px 5px rgba(158, 157, 157, 0.11);
 }
