@@ -3,14 +3,8 @@ ul, ol, li,
 h1, h2, h3, h4, h5, h6, p, div {
   margin: 0;
   padding: 0;
-}
-
-body {
-    font-family: "Manrope";
-}
-
-li {
-    list-style: none;
+  font-family: "Manrope";
+  list-style: none;
 }
 
 /* Header */
@@ -20,6 +14,8 @@ li {
     height: 80px;
     width: 100%;
     position: relative;
+    display: flex;
+    justify-content: space-between;
 }
 
 .header-left{
@@ -28,10 +24,6 @@ li {
     font-size: 20px;
     margin-top: 24px;
     margin-left: 80px;
-}
-
-.header-center{
-    margin-left: 497px;
 }
 
 .header-center li{
@@ -47,7 +39,6 @@ li {
 
 /*pertombolan pojok kanan*/
 .header-right{
-    position: sticky;
     margin-top: 24px;
     margin-right: 80px;
     float: right;
