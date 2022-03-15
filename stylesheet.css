@@ -36,14 +36,37 @@ div {
     font-size: 20px;
     margin-top: 24px;
     margin-left: 80px;
+    cursor: pointer;
 }
 
 .header-center li {
     color: #596B7B;
     font-size: 14px;
     padding: 0 20px;
-    float: left;
     margin-top: 28px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.header-center li a{
+    text-decoration: none;
+}
+
+.header-center li::after{
+    content:'';
+    height: 1px;    
+    width: 0;
+    background: rgb(136, 136, 136);
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+
+.header-center li:hover::after{
+    width: 100%;
+    font-size: 20px;
 }
 
 .header-center span {
@@ -67,12 +90,16 @@ div {
 }
 
 .top-wrapper {
-    padding: 180px 0 100px 0;
+    padding: 420px 0 420px 0;
     background:linear-gradient(rgba(107, 76, 46, 0.5), rgba(41, 35, 35, 0.5)), url(./assets/img1.jpg);
     background-position-y:center;
     background-size: cover;
     color: white;
     text-align: center;
+}
+
+.top-wrapper h1{
+    font-size: 64px;
 }
 
 
