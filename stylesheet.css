@@ -23,7 +23,6 @@ div {
 
 .header {
     background-color: whitesmoke;
-    /*nanti diganti white. Ini biar jelas aja pas develop)*/
     height: 80px;
     width: 100%;
     position: relative;
@@ -69,7 +68,8 @@ div {
 
 .top-wrapper {
     padding: 180px 0 100px 0;
-    background-image: url(img1.jpg);
+    background:linear-gradient(rgba(107, 76, 46, 0.5), rgba(41, 35, 35, 0.5)), url(./assets/img1.jpg);
+    background-position-y:center;
     background-size: cover;
     color: white;
     text-align: center;
