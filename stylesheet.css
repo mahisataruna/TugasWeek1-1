@@ -240,6 +240,264 @@ input[type="submit"]:hover {
     -moz-box-shadow: 0px 3px 38px 5px rgba(158, 157, 157, 0.11);
 }
 
+/* content promotion*/
+
+.content-view {
+    background-color: #FAFBFC;
+    height: 1018.5px; 
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.content-label { 
+    display: flex;
+    padding: 8px 20px;
+    background: #FCF5FF;
+    border-radius: 40px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    width: 140px;
+}
+
+.content-label p {
+    margin: 8px 20px 8px 2px ;
+    /* padding: 8px 20px 8px 2px ; */
+    color: #CC61FF;
+}
+
+.content-label img {
+    position: static;
+    width: 24px;
+    height: 24px;
+    left: 20px;
+    top: 8px; 
+}
+
+.content-label img {
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 8px 8px;
+}
+
+.content  {
+    margin-top: 24px;
+}
+.content h2 {
+    height: 48px;
+    left: 80px;
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    /* identical to box height, or 120% */
+    
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    color: #041627; 
+}
+.content p {
+   
+    left: 80px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+    color: #596B7B;
+}
+
+.view-desti {
+    width: 1280px;
+    margin: 70px auto 0 ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-right: 80px;
+    padding-left: 20%;
+    padding-top: 100px;
+    cursor: pointer;
+}
+
+.view-desti .box {
+   position: relative;
+  
+   width: 400px;
+   height: 300px;
+   background:rgb(231, 9, 9, 0.11);
+   margin: 10px;
+   box-sizing: border-box;
+   display: inline-block;
+}
+
+.view-desti .box .imgbox {
+    position: relative;
+    overflow: hidden; 
+}
+
+.view-desti .box .imgbox img {
+    max-width: 100%;
+    transition: transform 2s;   
+}
+
+.view-desti .box:hover .imgbox img  {
+    transform: scale(1.2);   
+}
+
+.view-desti .box .detail .contentbox {
+    position: absolute;
+    top : 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 15px;
+    color : rgb(255, 255, 255);   
+}
+
+.contentbox img {
+    display: flex;
+    border-radius: 40px;
+    margin-right: 20px;
+     margin-bottom: 400px;
+}
+
+/* tombol letsgo 3D */
+
+.message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+    margin-top: 80px;
+    height: 400px;
+  }
+  
+  .message {
+    padding: 15px 40px;
+    background-color: #0081F9;
+    cursor: pointer;
+    box-shadow: 0 7px #1b5286;
+    color : white;
+    font-family: 'Manrope';
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+
+  .heading h3 {
+    font-weight: normal;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+    color: #596B7B;
+  }
+
+  .heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+  }
+
+  .heading h2 {
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    /* identical to box height, or 120% */
+    align-items: center;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    color: #041627;
+  }
+
+  /* ini bagian footer*/
+
+  footer {
+    background-color: #1c1b1b;
+    color: #fff;
+    height: 500px;
+    padding: 80px;
+  }
+  
+  .footer-logo {
+    float: left;
+    font-size: 32px;
+  }
+
+  .footer-logo p {
+    width: 411px;
+    height: 96px;
+    left: 80px;
+    top: 4634px;
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+    color: #acb5bd;
+  }
+  
+  .footer-list {
+    float: right;
+    padding-top: 40px;
+  }
+  
+  .footer-list li {
+    padding-bottom: 20px;
+    padding-right: 80px;
+    
+  }
+  .titlef {
+    float: right;
+    padding-top: 20px;
+    padding-right: 150px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+/* identical to box height, or 160% */
+    color: #ffffff;
+    margin-bottom: 24px;
+
+  }
+    .footer-list a {
+        color: #9c9b9b;
+        text-decoration: none;  
+}
+.footer-list a:hover {
+    background-color: white;
+    box-shadow: 0px 3px 38px 5px rgba(158, 157, 157, 0.11);
+    -webkit-box-shadow: 0px 3px 38px 5px rgba(158, 157, 157, 0.11);
+    -moz-box-shadow: 0px 3px 38px 5px rgba(158, 157, 157, 0.11);
+}
+.copyright {
+    border-bottom: 2px solid #dee7ec;
+    
+    height: 400px;
+}
+.copyright h3 {
+    font-size: 15px;
+    padding-top: 450px;
+    text-align: center;
+    font-family: 'Manrope';
+    font-style: normal;
+    word-spacing: 15px;
+}
 
 /* Responsiveness */
 
@@ -279,7 +537,6 @@ input[type="submit"]:hover {
 
 
 }
-
 
 @media screen and (max-width: 670px) {
     .top-wrapper {
